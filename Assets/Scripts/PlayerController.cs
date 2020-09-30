@@ -7,6 +7,7 @@ internal interface IController
 {
     void Run();
     void Idle();
+    void Death();
 }
 
 public class PlayerController : BaseController, IController
@@ -64,19 +65,18 @@ public class PlayerController : BaseController, IController
 
     private void PlayerInitialize()
     {
-        jumpBuffer = new Vector2(0f, 300f);
+        jumpBuffer = new Vector2(0f, 300f) * 1.5f;
         cameraTween = mainCamera.DOLocalMoveX(goal.localPosition.x, 15f).SetEase(Ease.Linear);
         hipPositionBuffer = transform.localPosition;
-
-        // pcAction = 
     }
 
     private int jumpCount;
 
     public void Jump()
     {
-        if (rig.IsTouching(contactFilterGround)) {
-            rig.AddForce(jumpBuffer * crouchingTime * 1.5f, ForceMode2D.Impulse);
+        if (rig.IsTouching(contactFilterGround))
+        {
+            rig.AddForce(jumpBuffer * crouchingTime, ForceMode2D.Impulse);
         }
 
         crouchingTime = 0f;
@@ -86,26 +86,30 @@ public class PlayerController : BaseController, IController
         Debug.Log("Jump" + jumpCount);
     }
 
-    public void Crouch()
+    private void Crouch()
     {
         playerHip.sprite = hips[(int) PlayerState.Crouch];
         isCrouching = true;
     }
 
-    public void CountCrouch()
+    private void CountCrouch()
     {
         crouchingTime += Time.deltaTime;
 
-        if (crouchingTime.InRange(0f, 1f)) {
+        if (crouchingTime.InRange(0f, 1f))
+        {
             playerHip.sprite = hips[(int) PlayerState.CrouchLv1];
         }
-        else if (crouchingTime.InRange(1f, 2f)) {
+        else if (crouchingTime.InRange(1f, 2f))
+        {
             playerHip.sprite = hips[(int) PlayerState.CrouchLv2];
         }
-        else if (crouchingTime.InRange(2f, 3f)) {
+        else if (crouchingTime.InRange(2f, 3f))
+        {
             playerHip.sprite = hips[(int) PlayerState.CrouchLv3];
         }
-        else if (crouchingTime > 3f) {
+        else if (crouchingTime > 3f)
+        {
             Death();
         }
     }

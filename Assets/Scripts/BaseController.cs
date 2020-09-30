@@ -24,13 +24,13 @@ public class BaseController : MonoBehaviour
         // inputUpSpace = Input.GetKeyUp(KeyCode.Space);
     }
 
-    [SerializeField] private GUIStyle jumpUpStyle;
-
-#if UNITY_EDITOR
-    private void OnGUI()
-    {
-        GUI.Box(new Rect(50, 50, 200, 200), "jumpUp : " + jumpAction.triggered, jumpUpStyle);
-        GUI.Box(new Rect(50, 200, 200, 200), "jumpDown : " + crouchAction.triggered, jumpUpStyle);
-    }
-#endif
+//     [SerializeField] private GUIStyle jumpUpStyle;
+//
+// #if UNITY_EDITOR
+//     private void OnGUI()
+//     {
+//         GUI.Box(new Rect(50, 50, 20, 20), "jumpUp : " + jumpAction.triggered, jumpUpStyle);
+//         GUI.Box(new Rect(50, 200, 20, 20), "jumpDown : " + crouchAction.triggered, jumpUpStyle);
+//     }
+// #endif
 }
