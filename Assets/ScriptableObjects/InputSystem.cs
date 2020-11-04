@@ -41,6 +41,14 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Jet"",
+                    ""type"": ""Button"",
+                    ""id"": ""eb0c39e8-3d1e-4e44-af10-d2fedcdc9541"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -76,6 +84,17 @@ public class @InputSystem : IInputActionCollection, IDisposable
                     ""action"": ""Respawn"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0934dde2-9f79-4dc6-a54f-d04e2eead842"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": ""Hold"",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jet"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -87,6 +106,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
         m_PC_Crouch = m_PC.FindAction("Crouch", throwIfNotFound: true);
         m_PC_Jump = m_PC.FindAction("Jump", throwIfNotFound: true);
         m_PC_Respawn = m_PC.FindAction("Respawn", throwIfNotFound: true);
+        m_PC_Jet = m_PC.FindAction("Jet", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -139,6 +159,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
     private readonly InputAction m_PC_Crouch;
     private readonly InputAction m_PC_Jump;
     private readonly InputAction m_PC_Respawn;
+    private readonly InputAction m_PC_Jet;
     public struct PCActions
     {
         private @InputSystem m_Wrapper;
@@ -146,6 +167,7 @@ public class @InputSystem : IInputActionCollection, IDisposable
         public InputAction @Crouch => m_Wrapper.m_PC_Crouch;
         public InputAction @Jump => m_Wrapper.m_PC_Jump;
         public InputAction @Respawn => m_Wrapper.m_PC_Respawn;
+        public InputAction @Jet => m_Wrapper.m_PC_Jet;
         public InputActionMap Get() { return m_Wrapper.m_PC; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -164,6 +186,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Respawn.started -= m_Wrapper.m_PCActionsCallbackInterface.OnRespawn;
                 @Respawn.performed -= m_Wrapper.m_PCActionsCallbackInterface.OnRespawn;
                 @Respawn.canceled -= m_Wrapper.m_PCActionsCallbackInterface.OnRespawn;
+                @Jet.started -= m_Wrapper.m_PCActionsCallbackInterface.OnJet;
+                @Jet.performed -= m_Wrapper.m_PCActionsCallbackInterface.OnJet;
+                @Jet.canceled -= m_Wrapper.m_PCActionsCallbackInterface.OnJet;
             }
             m_Wrapper.m_PCActionsCallbackInterface = instance;
             if (instance != null)
@@ -177,6 +202,9 @@ public class @InputSystem : IInputActionCollection, IDisposable
                 @Respawn.started += instance.OnRespawn;
                 @Respawn.performed += instance.OnRespawn;
                 @Respawn.canceled += instance.OnRespawn;
+                @Jet.started += instance.OnJet;
+                @Jet.performed += instance.OnJet;
+                @Jet.canceled += instance.OnJet;
             }
         }
     }
@@ -186,5 +214,6 @@ public class @InputSystem : IInputActionCollection, IDisposable
         void OnCrouch(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnRespawn(InputAction.CallbackContext context);
+        void OnJet(InputAction.CallbackContext context);
     }
 }

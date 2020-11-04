@@ -71,6 +71,39 @@ TextureImporter:
   - first:
       213: 5985636934291039170
     second: nullBlock_17
+  - first:
+      213: 2345963509435778499
+    second: mapBlocks_0
+  - first:
+      213: 786178495687872474
+    second: mapBlocks_1
+  - first:
+      213: 2117492956694352169
+    second: mapBlocks_2
+  - first:
+      213: -5627133892051489953
+    second: mapBlocks_3
+  - first:
+      213: 6551771062501382518
+    second: mapBlocks_4
+  - first:
+      213: 4912210524264248791
+    second: mapBlocks_5
+  - first:
+      213: -3064619865194293747
+    second: mapBlocks_6
+  - first:
+      213: 713434129737429202
+    second: mapBlocks_7
+  - first:
+      213: 4813473424290451679
+    second: mapBlocks_8
+  - first:
+      213: 3972802689507776783
+    second: mapBlocks_2
+  - first:
+      213: -68188295063702704
+    second: mapBlocks_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -492,6 +525,90 @@ TextureImporter:
       bones: []
       spriteID: 52181086540352f20800000000000000
       internalID: 3397174568576712997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapBlocks_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5c2f3e1698e8020800000000000000
+      internalID: 2345963509435778499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapBlocks_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 46
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfc68d2d2119ea00800000000000000
+      internalID: 786178495687872474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapBlocks_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 46
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09d3de4ffa322730800000000000000
+      internalID: 3972802689507776783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapBlocks_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 30
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05373ee5b1fbd0ff0800000000000000
+      internalID: -68188295063702704
       vertices: []
       indices: 
       edges: []

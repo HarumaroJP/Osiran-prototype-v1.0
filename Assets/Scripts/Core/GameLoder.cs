@@ -2,15 +2,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameLoder : MonoBehaviour
-{
-    void Start()
-    {
+public class GameLoder : MonoBehaviour {
+    void Start() {
         StartCoroutine(LoadMainScene());
     }
 
-    private IEnumerator LoadMainScene()
-    {
+
+    private IEnumerator LoadMainScene() {
         AsyncOperation operation = SceneManager.LoadSceneAsync("Main");
         operation.allowSceneActivation = false;
 
@@ -22,4 +20,6 @@ public class GameLoder : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         operation.allowSceneActivation = true;
     }
+    
+    
 }

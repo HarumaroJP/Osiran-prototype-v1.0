@@ -1,47 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9de95e67-c4d6-4b74-87b8-7ebf4d6cd0ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stage/StageManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hop steper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InputSystem.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.hop steper/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.hop steper/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Atlas/StageBlocks.spriteatlas" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Atlas/StageBlocks.spriteatlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/InputSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/InputSystem.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/InputSystem.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/GameLoder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameLoder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/InputSystem.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Hip.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Hip.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Materials/Hip.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stage.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch level 3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/hip crouch.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/map.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/map.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/map_1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/map_1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock_0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock_0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/nullBlock_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stage/ProgressManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stage/ProgressManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stage/StageManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/MapTiles.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/MapTiles.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/Stage.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/Stage.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_1.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_11.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_11.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_12.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_12.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_13.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_13.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_14.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_14.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_15.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_15.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_16.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_16.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_2.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_3.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_3.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_4.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_4.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_5.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_5.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_6.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_6.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_7.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_7.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_8.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MapTiles/nullBlock_8.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch level 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/hip crouch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stages/mapBlocks.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Stages/mapBlocks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Stages/mapBlocks.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Stages/mapBlocks.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NetworkManager.asset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/XRSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,25 +81,59 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/51/9133bdfb/Tween.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/67/b425c94b/TextAreaAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stage/StageManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0D50CA6-A32B-4201-B95F-232CC712F964/e1/78ac7d6a/ShortcutAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4648B31-44DF-498A-90DA-4EDE637BD05B/5e/2468a423/BoxCollider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/8e/90113b84/Math.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/43/5f46773c/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0D50CA6-A32B-4201-B95F-232CC712F964/fc/94946308/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/f7/c9879876/Plane.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0D50CA6-A32B-4201-B95F-232CC712F964/4e/27ba2017/ShortcutBaseAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/c6/7926ab5c/Tweener.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4648B31-44DF-498A-90DA-4EDE637BD05B/67/ceb1af71/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/ec/af3d5db7/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/AB/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Marinia (5)/Assets/Scripts/GameSystem/Debug/EventForDeveloper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/de/32a5dd72/TweenExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BaseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/22/cf778789/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/ea/6458f7a8/Transform.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/cc/2966b724/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/9a/ee219536/CLSCompliantAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameLoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Plugins/PlayerInput/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0D50CA6-A32B-4201-B95F-232CC712F964/3c/4eb5ea1d/PropertyDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameLoder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/0/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F4648B31-44DF-498A-90DA-4EDE637BD05B/67/ceb1af71/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/50F/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55ADAE45-46CD-485B-A70E-2948332EBE8C/86/9823fe16/IReadOnlyCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/43/5f46773c/PropertyAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/05B66110-AB04-4470-9658-BD2493F67004/fa/f3ed76b0/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity-Reorderable-List-master/Runtime/Attributes/ReorderableAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/cc/2966b724/SerializeField.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/3c/a2cb1e8e/SpriteAtlas.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/55ADAE45-46CD-485B-A70E-2948332EBE8C/fe/51f18a07/IReadOnlyList`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/F8/attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/AB/Single.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity-Reorderable-List-master/Editor/ReorderableList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.0/InputSystem/Controls/ButtonControl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity-Reorderable-List-master/Editor/ReorderableDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Unity-Reorderable-List-master/Runtime/ReorderableArray.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0D50CA6-A32B-4201-B95F-232CC712F964/fc/94946308/EditorGUILayout.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/2d/6358ae84/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/9a/ee219536/CLSCompliantAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/ff/2f6092cb/TweenManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/62/bdc9c8a4/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/67/29e5aae4/ShortcutExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/4d/d1055135/Debugger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/67/b425c94b/TextAreaAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/7f/95c33ebd/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/c3/742d1991/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/22/cf778789/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/41/5a996f9d/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debug/DebugCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/B9/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/94/1e87cc21/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/63/95bf448c/GL.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7CD321F2-2A98-4E1E-B513-F00B987C648C/ea/6458f7a8/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.spriteshape@4.1.3/Editor/SpriteShapeControllerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/99258562-0D64-4271-98DD-F3A0E1467733/ec/af3d5db7/Boolean.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55ADAE45-46CD-485B-A70E-2948332EBE8C/411/Assembly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2348FB5E-CC9E-4E68-9F37-F7D7FADAEA9A/51/9133bdfb/Tween.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,9 +144,14 @@
         <option value="$PROJECT_DIR$/Assets/InputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/SingletonMonoBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameLoder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage/SpearTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Debug/DebugCommand.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage/Flag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage/ProgressManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stage/StageManager.cs" />
       </list>
     </option>
   </component>
@@ -99,7 +167,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.quicklists" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -121,6 +189,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -136,11 +205,26 @@
       <workItem from="1600830372962" duration="15752000" />
       <workItem from="1601002247184" duration="12218000" />
       <workItem from="1601263186754" duration="1488000" />
+      <workItem from="1604223500231" duration="2056000" />
+      <workItem from="1604285503485" duration="42000" />
+      <workItem from="1604285609492" duration="6408000" />
     </task>
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -153,17 +237,21 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="649" y="233" key="RiderGenerateDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1600233462906" />
-    <state x="683" y="227" key="SettingsEditor" timestamp="1600234704445">
+    <state x="683" y="227" key="SettingsEditor" timestamp="1604037085398">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="683" y="227" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1600234704445" />
+    <state x="683" y="227" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604037085398" />
     <state x="411" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600927056422">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="411" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1600927056422" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1601004852507">
+    <state x="443" y="280" width="794" height="490" key="find.popup" timestamp="1604036594987">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1601004852507" />
+    <state x="443" y="280" width="794" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604036594987" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1604286887467">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604286887467" />
   </component>
 </project>

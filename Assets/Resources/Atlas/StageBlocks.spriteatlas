@@ -40,10 +40,11 @@ SpriteAtlas:
       allowAlphaSplitting: 0
       enableRotation: 1
       enableTightPacking: 1
+    secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
-    totalSpriteSurfaceArea: 960
+    totalSpriteSurfaceArea: 1296
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -55,6 +56,10 @@ SpriteAtlas:
   - {fileID: 925373800597520750, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
   - {fileID: -8977138115145179510, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
   - {fileID: 2105628938944377994, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
+  - {fileID: 2345963509435778499, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
+  - {fileID: 786178495687872474, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
+  - {fileID: 2117492956694352169, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
+  - {fileID: -5627133892051489953, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
   - {fileID: 3431371841525089539, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
   - {fileID: 2211662224218594861, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
   - {fileID: -7387658282939763104, guid: 97fcd5125fefb4d3aaafff26fa03ca2d, type: 3}
@@ -71,6 +76,10 @@ SpriteAtlas:
   - nullBlock_11
   - nullBlock_13
   - nullBlock_12
+  - mapBlocks_0
+  - mapBlocks_1
+  - mapBlocks_2
+  - mapBlocks_3
   - nullBlock_6
   - nullBlock_7
   - nullBlock_4
@@ -80,5 +89,6 @@ SpriteAtlas:
   - nullBlock_0
   - nullBlock_1
   - nullBlock_8
+  m_RenderDataMap: {}
   m_Tag: StageBlocks
   m_IsVariant: 0
